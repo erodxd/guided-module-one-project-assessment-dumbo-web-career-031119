@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 3) do
   end
 
   create_table "donations", force: :cascade do |t|
-    t.float "amount_donated"
+    t.float "amount"
     t.integer "campaign_id"
     t.integer "donor_id"
   end
