@@ -10,6 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 3) do
+
+  create_table "campaigns", force: :cascade do |t|
+    t.string "name"
+    t.string "party_affiliation"
+  end
+
+  create_table "donations", force: :cascade do |t|
+    t.float "amount_donated"
+  end
+
+  create_table "donors", force: :cascade do |t|
+    t.string "name"
+    t.string "industry"
+  end
 
 end

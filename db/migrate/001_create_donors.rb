@@ -5,5 +5,5 @@ class CreateDonors < ActiveRecord::Migration[5.1]
       t.string :industry
     end
     
-end      
+    end      
 end
