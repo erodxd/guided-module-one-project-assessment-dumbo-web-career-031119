@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "campaigns", force: :cascade do |t|
     t.string "name"
-    t.string "party_affiliation"
+    t.string "party"
   end
 
   create_table "donations", force: :cascade do |t|
