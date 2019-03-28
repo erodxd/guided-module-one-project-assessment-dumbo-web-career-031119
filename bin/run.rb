@@ -1,5 +1,4 @@
 require_relative '../config/environment'
-require 'figlet'
 require 'colorize'
 ActiveRecord::Base.logger = nil
 
